@@ -1,4 +1,6 @@
 'use strict';
+
+
 var fs = require('fs');
 fs.readFile('timg.jpg',function (err,data) {
 	if(err){
